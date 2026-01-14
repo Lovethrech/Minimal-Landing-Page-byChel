@@ -39,6 +39,7 @@ header{
 #desktop-menu .menu{
     list-style: none;
     font-size: 2vh;
+    font-weight: 500;
 }
 #desktop-menu li.menu:hover{
     cursor: pointer;
@@ -57,7 +58,6 @@ header{
 }
 #login-and-signup-ctn div#login-ctn:hover{
     cursor: pointer;
-
 }
 #login-and-signup-ctn #login-ctn .link #login{
     font-size:2vh;
