@@ -56,7 +56,7 @@ header{
 #login-and-signup-ctn #login-ctn{
     padding: 0.5vw 2.5vh;
 }
-#login-and-signup-ctn #login-ctn a.link:hover{
+#login-and-signup-ctn #login-ctn:hover, #login-and-signup-ctn #login-ctn .link:hover{
     cursor: pointer;
 }
 #login-and-signup-ctn #login-ctn .link #login{
