@@ -32,3 +32,10 @@ header{
     list-style: none;
     font-size: 2vh;
 }
+    /* LOGIN AND SIGNUP CTN  */
+#login-and-signup-ctn{
+    background: #000;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
