@@ -36,9 +36,14 @@ header{
     flex-direction: row;
     gap:2vw;
 }
-.menu{
+#desktop-menu .menu{
     list-style: none;
     font-size: 2vh;
+}
+#desktop-menu li.menu:hover{
+    cursor: pointer;
+    color:#1a8d4a;
+    transition: all .6s;
 }
     /* LOGIN AND SIGNUP CTN  */
 #login-and-signup-ctn{
@@ -50,6 +55,10 @@ header{
 #login-and-signup-ctn #login-ctn{
     padding: 0.5vw 2.5vh;
 }
+#login-and-signup-ctn div#login-ctn:hover{
+    cursor: pointer;
+
+}
 #login-and-signup-ctn #login-ctn .link #login{
     font-size:2vh;
     color: #1a8d4a;
@@ -57,7 +66,7 @@ header{
     border: 0;
 }
 #login-and-signup-ctn #signup-ctn{
-    background: #311a66;
+    background-color: #1a8d4a;
     padding: 0.5vw 2.5vh;
     border-radius:1vh;
 }
