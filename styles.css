@@ -120,4 +120,6 @@ header{
         /* HERO TOOGLE CTN  */
 #hero-toogle-main-ctn{
     background-color: orange;
+    width: 100%;
+    height: 2vh;
 }
