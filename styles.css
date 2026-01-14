@@ -10,6 +10,10 @@
     padding:2vh 6vw;
 }
 
+.link{
+    color:#000;
+}
+
 /* HEADER  */
 header{
     display: flex;
@@ -34,8 +38,18 @@ header{
 }
     /* LOGIN AND SIGNUP CTN  */
 #login-and-signup-ctn{
-    background: #000;
+    background: #c29494;
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+    gap:4vw;
+}
+#login-and-signup-ctn #login-ctn{
+
+    background: #1a8d4a;
+    padding: 1vw 2vh;
+    font-size:2vh;
+}
+#login-and-signup-ctn #login-ctn .link #login{
+
 }
