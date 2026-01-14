@@ -53,3 +53,12 @@ header{
     background:transparent;
     border: 0;
 }
+#login-and-signup-ctn #signup-ctn{
+    background: #311a66;
+    padding: 1vw 2vh;
+}
+#login-and-signup-ctn #signup-ctn .link #signup{
+    font-size:2vh;
+    background:transparent;
+    border: 0;
+}
