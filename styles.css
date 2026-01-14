@@ -53,13 +53,11 @@ header{
     justify-content: space-between;
     gap:2vh;
 }
-#login-and-signup-ctn #login-ctn .login-and-signup-ctn-link #login{
+div#login-and-signup-ctn div#login-ctn a.login-and-signup-ctn-link div#login{
     background-color: #000;
     padding: 0.5vw 2.5vh;
 }
-#login-and-signup-ctn #login-ctn:hover, #login-and-signup-ctn #login-ctn .link:hover{
-    cursor: pointer;
-}
+
 /* #login-and-signup-ctn #login-ctn .link #login{
     font-size:2vh;
     color: #1a8d4a;
