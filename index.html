@@ -26,6 +26,13 @@
             <!-- FOOTER   -->
             <div></div>
         </div>
-        <script src="./assets/include.js" defer></script>
+        
+        <script>
+            (function includeHTML(){
+                const includes = Array.from(document.querySelectorAll('[data-include]'));
+
+                if (include.length === 0) return;
+            })
+        </script>
     </body>
 </html>
