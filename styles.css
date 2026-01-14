@@ -11,10 +11,23 @@
 }
 
 /* HEADER  */
+header{
+    display: flex;
+    justify-content: space-between;
+}
     /* LOGO CTN  */
 #logo-ctn{
     width: 14vh;
 }
 #logo-ctn img{
     width: 100%;
+}
+    /* DESKTOP-MENU-CTN */
+#desktop-menu{
+    display:flex;
+    flex-direction: row;
+    gap:2vw;
+}
+.menu{
+    list-style: none;
 }
