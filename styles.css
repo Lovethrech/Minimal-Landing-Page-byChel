@@ -54,16 +54,13 @@ header{
     gap:2vh;
 }
 #login{
-    background-color: #000;
     padding: 0.5vw 2.5vh;
-}
-
-/* #login-and-signup-ctn #login-ctn .link #login{
     font-size:2vh;
     color: #1a8d4a;
     background:transparent;
     border: 0;
-} */
+}
+
 #login-and-signup-ctn #signup-ctn{
     background-color: #1a8d4a;
     padding: 0.5vw 2.5vh;
