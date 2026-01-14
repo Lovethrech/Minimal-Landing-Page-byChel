@@ -45,10 +45,10 @@ header{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-    gap:4vw;
+    gap:2vh;
 }
 #login-and-signup-ctn #login-ctn{
-    padding: 1vw 2vh;
+    padding: 0.5vw 2.5vh;
 }
 #login-and-signup-ctn #login-ctn .link #login{
     font-size:2vh;
@@ -58,10 +58,12 @@ header{
 }
 #login-and-signup-ctn #signup-ctn{
     background: #311a66;
-    padding: 1vw 2vh;
+    padding: 0.5vw 2.5vh;
+    border-radius:1vh;
 }
 #login-and-signup-ctn #signup-ctn .link #signup{
     font-size:2vh;
+    color: #ffffff;
     background:transparent;
     border: 0;
 }
