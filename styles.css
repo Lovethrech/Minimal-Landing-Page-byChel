@@ -8,6 +8,7 @@
 
 #app{
     padding:2vh 6vw;
+    background-color: #ffffff;
 }
 
 .link{
@@ -69,11 +70,12 @@ header{
 }
 #login:hover{
     cursor: pointer;
-    border: 0.1vh solid #1a8d4a;
+    border: 0.2vh solid #1a8d4a;
     border-radius:1vh;
 }
 #signup:hover{
     background-color: #ffffff;
-    
+    color: #1a8d4a;
+    border: 0.2vh solid #1a8d4a;
 }
 
