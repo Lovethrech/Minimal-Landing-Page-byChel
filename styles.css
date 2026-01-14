@@ -70,8 +70,10 @@ header{
     color: #ffffff;
     border-radius:1vh;
 }
-#login:hover, #signup:hover{
-    cursor: pointer;
+#login:hover, #signup:hover, #hero-btn-register{
+    cursor: pointer; 
+}
+#login:hover{
     border: 0.2vh solid #1a8d4a;
     border-radius:1vh;
 }
@@ -80,6 +82,9 @@ header{
 /* MAIN CONTENT  */
 /* START  */
     /* HERO  */
+#hero{
+    min-height: 90vh;
+}
 #hero-mini-ctn, #hero-text-ctn, #hero-text-mini-ctn{
     display: flex;
 }
