@@ -17,7 +17,7 @@
     <body>
         <div id="app">
             <!-- HEADER -->
-            <div data-include="./components/header/header.html"></div>
+            <div data-include="header.html"></div>
             
             <main id="content" role="main">
 
@@ -28,11 +28,44 @@
         </div>
         
         <script>
-            (function includeHTML(){
+            (function includeHTML() {
                 const includes = Array.from(document.querySelectorAll('[data-include]'));
 
-                if (include.length === 0) return;
-            })
+            if (includes.length === 0) return;
+
+            function fetchAndInsert(el) {
+                const url = el.getAttribute('data-include');
+                return fetch(url, {cache: "no-store"})
+                .then(res => {
+                    if (!res.ok) throw new Error('Failed to fetch ' + url + ' — ' + res.status);
+                    return res.text();
+                })
+                .then(html => {
+                    el.innerHTML = html;
+                    // Execute any scripts inside the included HTML
+                    const scripts = Array.from(el.querySelectorAll('script'));
+                    for (const oldScript of scripts) {
+                    const script = document.createElement('script');
+                    if (oldScript.src) {
+                        script.src = oldScript.src;
+                    } else {
+                        script.textContent = oldScript.textContent;
+                    }
+                    // copy attributes like type, async
+                    Array.from(oldScript.attributes).forEach(a => script.setAttribute(a.name, a.value));
+                    oldScript.parentNode.replaceChild(script, oldScript);
+                    }
+                    return Promise.resolve();
+                });
+            }
+
+            // sequentially fetch & insert (keeps order if you have multiple includes)
+            includes.reduce((p, el) => p.then(() => fetchAndInsert(el)), Promise.resolve())
+                .catch(err => {
+                // you can show a fallback or console the error
+                console.error(err);
+                });
+            })();
         </script>
     </body>
 </html>
