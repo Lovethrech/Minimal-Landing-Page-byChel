@@ -53,22 +53,17 @@ header{
     justify-content: space-between;
     gap:2vh;
 }
-#login{
+#login, #signup{
     padding: 0.5vw 2.5vh;
     font-size:2vh;
+    border: 0;
+}
+#login{
     color: #1a8d4a;
     background:transparent;
-    border: 0;
 }
-
-#login-and-signup-ctn #signup-ctn{
-    background-color: #1a8d4a;
-    padding: 0.5vw 2.5vh;
-    border-radius:1vh;
-}
-#login-and-signup-ctn #signup-ctn .link #signup{
-    font-size:2vh;
+#signup{
+    background-color: #1a8d4a;    
     color: #ffffff;
-    background:transparent;
-    border: 0;
+    border-radius:1vh;
 }
