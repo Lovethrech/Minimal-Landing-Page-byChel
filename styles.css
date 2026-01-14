@@ -67,3 +67,8 @@ header{
     color: #ffffff;
     border-radius:1vh;
 }
+#login:hover, #signup:hover{
+    cursor: pointer;
+    transform: scale(0.98); 
+    transition: all .6s;
+}
