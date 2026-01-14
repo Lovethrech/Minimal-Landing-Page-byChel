@@ -9,6 +9,7 @@
 #app{
     padding:2vh 6vw;
     background-color: #ffffff;
+    min-height: 100vh;
 }
 
 .link{
@@ -84,3 +85,22 @@ header{
 /* MAIN CONTENT  */
 /* START  */
     /* HERO  */
+#hero-mini-ctn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:80vh;
+}
+#hero-text-ctn{
+    display:flex;
+    place-items: center;
+    height: 100%;
+}
+#hero-text-mini-ctn{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+#hero-header{
+    font-size: 8vh;
+}
