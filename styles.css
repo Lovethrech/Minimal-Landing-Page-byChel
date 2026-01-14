@@ -53,7 +53,7 @@ header{
     justify-content: space-between;
     gap:2vh;
 }
-div#login-and-signup-ctn div#login-ctn a.login-and-signup-ctn-link div#login{
+#login{
     background-color: #000;
     padding: 0.5vw 2.5vh;
 }
