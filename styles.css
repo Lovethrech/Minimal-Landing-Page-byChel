@@ -9,3 +9,12 @@
 #app{
     padding:2vh 6vw;
 }
+
+/* HEADER  */
+    /* LOGO CTN  */
+#logo-ctn{
+    width: 14vh;
+}
+#logo-ctn img{
+    width: 100%;
+}
