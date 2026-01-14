@@ -117,3 +117,7 @@ header{
 #hero-img-ctn img{
     width: 100%;
 }
+        /* HERO TOOGLE CTN  */
+#hero-toogle-main-ctn{
+    background-color: orange;
+}
