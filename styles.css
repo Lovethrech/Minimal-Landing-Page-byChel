@@ -45,11 +45,11 @@ header{
     gap:4vw;
 }
 #login-and-signup-ctn #login-ctn{
-
     background: #1a8d4a;
     padding: 1vw 2vh;
-    font-size:2vh;
 }
 #login-and-signup-ctn #login-ctn .link #login{
-
+    font-size:2vh;
+    background:transparent;
+    border: 0;
 }
