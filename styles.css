@@ -159,3 +159,9 @@ header{
     width: 100%;
     text-align: center;
 }
+#client-list-header-name{
+    font-size:6vh;
+}
+#client-list-header-desc{
+    font-size: 2.6vh;
+}
