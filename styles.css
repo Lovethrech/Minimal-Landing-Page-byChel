@@ -165,3 +165,7 @@ header{
 #client-list-header-desc{
     font-size: 2.6vh;
 }
+#client-list-img-main-ctn{
+    display: flex;
+    flex-direction: row;
+}
