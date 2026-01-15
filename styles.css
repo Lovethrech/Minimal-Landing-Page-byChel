@@ -10,6 +10,7 @@
     padding:2vh 6vw;
     background-color: #ffffff;
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .link{
@@ -83,7 +84,7 @@ header{
 /* START  */
     /* HERO  */
 #hero{
-    min-height: 90vh;
+    min-height: 96vh;
 }
 #hero-mini-ctn, #hero-text-ctn, #hero-text-mini-ctn{
     display: flex;
@@ -150,3 +151,11 @@ header{
 }
 
     /* CLIENT LIST CTN  */
+#client-list{
+    min-height: 30vh;
+    background-color: orange;
+}
+#client-list-header-ctn{
+    width: 100%;
+    text-align: center;
+}
