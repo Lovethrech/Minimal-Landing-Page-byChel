@@ -168,4 +168,10 @@ header{
 #client-list-img-main-ctn{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+.client-list-img-ctn{
+    background-color: lightcyan;
+    width: 50%;
+    height: 100%;
 }
