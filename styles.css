@@ -106,7 +106,11 @@ header{
     font-size: 8vh;
 }
 #hero-desc{
-    font-size: 3vh;
+    font-size: 2.8vh;
+    color: #727070;
+}
+#hero-header-highlight{
+    color: #1a8d4a;
 }
         /* HERO IMG CTN  */
 #hero-img-ctn{
